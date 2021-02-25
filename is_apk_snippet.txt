@@ -1,0 +1,16 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        var isBot = parseInt('@@isBot@@');
+
+                if (isBot == 0) {
+                        $('.link_download').attr('href', '@@link@@');
+                        $('.link_download').attr('data-replace-href', '@@link@@');
+                         $('.link_download').attr('lp-action-link', '@@link@@');
+
+                } //end if check country
+
+    });
+
+</script>
