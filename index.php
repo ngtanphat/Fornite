@@ -78,7 +78,7 @@ $fullCodeHeader = getAnalyticFullCode()."\n".getAdsIdFullCode()."\n"
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang = 'en'>
 
 <head>
 	<meta charset="UTF-8">
@@ -88,7 +88,7 @@ $fullCodeHeader = getAnalyticFullCode()."\n".getAdsIdFullCode()."\n"
 	<meta name="keywords" content="Fortnite, Fortnite Mobile, Fortnite apk, Fortnite Android, Download Fortnite, Install Fortnite, Fortnite Free, Fortnite 2021, Fortnite APK full version">
 	<meta name="description" content="Fornite: Chepter 2 - Season 5 . The zero point has been unearthed and the island is in chaos. Eplore the new desert landscape with locaitions new and familar as you battle to stop others from escaping the loop. Free download fortnite for android.">
 	<script id='script_viewport' type='text/javascript'>
-		window.ladi_viewport = function () {var width = window.outerWidth > 0 ? window.outerWidth : window.screen.width;var widthDevice = width;var is_desktop = width >= 768;var content = "";if (typeof window.ladi_is_desktop == "undefined" || window.ladi_is_desktop == undefined) {window.ladi_is_desktop = is_desktop;}if (!is_desktop) {widthDevice = 420;} else {widthDevice = 960;}content = "width=" + widthDevice + ", user-scalable=no";var scale = 1;if (!is_desktop && widthDevice != window.screen.width && window.screen.width > 0) {scale = window.screen.width / widthDevice;}if (scale != 1) {content += ", initial-scale=" + scale + ", minimum-scale=" + scale + ", maximum-scale=" + scale;}var docViewport = document.getElementById("viewport");if (!docViewport) {docViewport = document.createElement("meta");docViewport.setAttribute("id", "viewport");docViewport.setAttribute("name", "viewport");document.head.appendChild(docViewport);}docViewport.setAttribute("content", content);};window.ladi_viewport();
+		window.ladi_viewport = function () {var width = window.outerWidth > 0 ? window.outerWidth : window.screen.width;var widthDevice = width;var is_desktop = width >= 768;var content = "";if (typeof window.ladi_is_desktop == "undefined" || window.ladi_is_desktop == undefined) {window.ladi_is_desktop = is_desktop;}if (!is_desktop) {widthDevice = 420;} else {widthDevice = 960;}content = "width=" + widthDevice + ", user-scalable=yes";var scale = 1;if (!is_desktop && widthDevice != window.screen.width && window.screen.width > 0) {scale = window.screen.width / widthDevice;}if (scale != 1) {content += ", initial-scale=" + scale + ", minimum-scale=" + scale + ", maximum-scale=" 4;}var docViewport = document.getElementById("viewport");if (!docViewport) {docViewport = document.createElement("meta");docViewport.setAttribute("id", "viewport");docViewport.setAttribute("name", "viewport");document.head.appendChild(docViewport);}docViewport.setAttribute("content", content);};window.ladi_viewport();
 	</script>
 	<link rel="canonical" href="http://preview.pagedemo.me/6004fdc01cba2c00118c7b18" />
 	<meta property="og:url" content="http://preview.pagedemo.me/6004fdc01cba2c00118c7b18" />
