@@ -14,8 +14,8 @@ function getAnalyticFullCode()
     
     $str = "
         <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src='https://www.googletagmanager.com/gtag/js?id=@@CODE@@'></script>
-    <script>
+    <script defer async src='https://www.googletagmanager.com/gtag/js?id=@@CODE@@'></script>
+    <script defer >
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -41,7 +41,7 @@ function getAdsConversionFullCode()
     
     $str = "
 <!-- In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script type='text/javascript'>
+<script defer type='text/javascript'>
 function gtag_report_conversion(url) {
     console.log('from gtag');
     
@@ -77,7 +77,7 @@ function getAdsIdFullCode()
     $str = "
         <!-- Global site tag (gtag.js) - Google Ads: @@CODE@@ -->
 <script async src='https://www.googletagmanager.com/gtag/js?id=@@CODE@@'></script>
-<script type='text/javascript'>
+<script defer type='text/javascript'>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -103,7 +103,7 @@ function getTagManagerFullHeadCode()
     
     $str = "
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script defer >(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
